@@ -2,6 +2,12 @@
   <div v-if="appReady" class="min-h-full font-Poppins box-border">
     <Navigation />
     <router-view />
+     <img class="justify-center"
+         
+          src="@/assets/images/walking.webp"
+          alt=""
+        />
+
   </div>
 </template>
 

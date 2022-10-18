@@ -336,6 +336,7 @@
         Update Workout
       </button>
     </div>
+    
   </div>
 </template>
 

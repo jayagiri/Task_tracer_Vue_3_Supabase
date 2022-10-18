@@ -20,15 +20,16 @@
         </router-link>
         <li @click="logout" v-if="user" class="cursor-pointer">Logout</li>
       </ul>
+      <img
+              class="h-3.5 w-auto"
+              src="@/assets/images/pencil-light.png"
+              alt=""
+            />
     </nav>
   </header>
 </template>
 
 <script>
-import { supabase } from "../supabase/init";
-import { useRouter } from "vue-router";
-import { computed } from "@vue/reactivity";
-import store from "../store";
 
 export default {
   setup() {
